@@ -4,10 +4,13 @@
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
-        "psr-0": {"marqu3s\\Composer": "src/"}
+        "psr-4": {
+            "marqu3s\\Composer\\": "src"
+        }
     },
     "extra": {
-        "class": "marqu3s\\Composer\\Yii2InstallerPlugin"
+        "class": "marqu3s\\Composer\\Yii2InstallerPlugin",
+        "plugin-modifies-install-path": true
     },
     "require": {
         "composer-plugin-api": "^2.0"
