@@ -1,5 +1,6 @@
 {
     "name": "marqu3s/yii2-composer-installer-plugin",
+    "description": "A composer installer plugin to allow the use of a package as a common folder in the advanced Yii2 template.",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
